@@ -36,6 +36,6 @@ insert org file header,"#+title:  A simple org-mode document
 insert org python code block,"#+BEGIN_SRC jupyter-python
 Replace with multiple lines of Python code
 #+END_SRC"
-insert org 5x2 table, "|   |   |   |   |   |
+insert org 2x5 table, "|   |   |   |   |   |
 |---+---+---+---+---|
 |   |   |   |   |   |"
