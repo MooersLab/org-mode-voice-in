@@ -18,3 +18,4 @@ Use the bulk ad button in Voice In Plus to upload these commands into your colle
 - org-mdoe file headers
 - table templates
 - org-babel code blocks
+- TODO lists
