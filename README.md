@@ -21,4 +21,6 @@ Use the bulk ad button in Voice In Plus to upload these commands into your colle
 - TODO lists
 
 ## Related repos
-See [voice computing section of landing page](https://github.com/MooersLab/MooersLab#VoiceComputing)
+See [Voice Computing section of landing page](https://github.com/MooersLab/MooersLab#VoiceComputing)
+
+
