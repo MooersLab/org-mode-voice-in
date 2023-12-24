@@ -146,6 +146,6 @@ To avoid having to rewrite or edit these to-do's extensively every day, you can 
 
 If you do not assign a priority to these items, then Charles Hobbs calls this list the "grasscatcher list". 
 You can call it the overflow list or whatever you like.
-You can store this overflow list at the top or bottom of your org-mode.
+You can store this overflow list at the top or bottom of your org-mode task.org file.
 You can navigate to the bottom of this file very quickly with the control-> command and Emacs.
-If you find moving selected tasks from the list back up the page to the current onerous, you could store this overflow list in a separate file and then copy a group of to-do's from this file opened in parallel buffer.
+If you find moving selected tasks from the list back up the page to the current onerous, you could store this overflow list in a separate org file and then copy a group of to-do's from this file opened in parallel buffer for pasting into your task.org file.
