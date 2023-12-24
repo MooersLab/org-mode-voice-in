@@ -13,13 +13,13 @@ The commands are mapped to the text that is actually inserted.
 Each command is paired with the inserted text on a single line in of a comma separated value file.
 Use the bulk ad button in Voice In Plus to upload these commands into your collecton of custom commands.
 
-## Contents
+## Contents of the library
 
-- org-mdoe file headers
+- org-mode file headers
 - table templates
 - org-babel code blocks
-- TODO's with priorites
-- TODO's with priorities and time esitmates
+- 30 TODO's with priorites
+- 600 TODO's with priorities and time esitmates
 
 ## Related repos
 See [Voice Computing section of landing page](https://github.com/MooersLab/MooersLab?tab=readme-ov-file#voice-computing)
@@ -48,7 +48,6 @@ You may find that you have to verbalize the command at a high speed to avoid hav
 
 
 ## org-mode TODO voice commands
-
 One major deficit with the org-mode priority system is that it does not support directly the use of alphanumeric codes for prioritizing tasks.
 The default is to use A, B and C as the three property categories.
 Most time management books will suggest that you put your to-do items into four quadrants.
@@ -72,10 +71,12 @@ I use the second level for the date.
 Then all my to do's are under the date heading.
 Obviously, you can easily edit these commands to suit your needs.
  
-The use of alpha-numeric priority codes as advocated in ''Power Time'' by Charles Hobbs, a classic book on time management.
+The use of alpha-numeric priority codes as advocated in [''Time Power''](https://www.amazon.com/Time-Power-Revolutionary-Management-Professional/dp/0060914904) by Charles Hobbs, a classic book on time management.
+Most of the current popular time management schemes are related, but it is best to start with this source.
+The system is prinicple driven; some of the derived version are not and are less effective as a result.
 The setting up priorities to one's work forces one to make hard choices.
 Most people do not like to make these kinds of choices.
-However, by turning this practice into a habit, you can overcome the resistance to doing this hard work.
+However, by turning this practice into a daily habit, you can overcome the resistance to doing this hard work.
 
 ### TODOs with time estimates
 
@@ -100,4 +101,16 @@ The audible sound should be a whistle or a siren to warn you that you overloaded
 The wave package can provide support for audible alarms like this.
 It is just a matter of coming up with the e-list code to do the summing.
 
+### Overflow to-dos
+If your tasks are stored in a single org-mode file for the month or for the semester for the year, you can move some of excess your to-do items to later days in the week or month. 
+You could assign a priority to the task that is just at the letter level and then add a number on the day that you plan to do that task.
 
+However, your priorities will probably change from day to day.
+There has a danger that the todos that are assign to dates in advance will probably wind up being heavily edited once that day is reached.
+To avoid having to rewrite or edit these to-do's extensively every day, you can store these to do's in a list.
+
+If you do not assign a priority to these items, then Charles Hobbs calls this list the "grasscatcher list". 
+You can call it the overflow list or whatever you like.
+You can store this overflow list at the top or bottom of your org-mode.
+You can navigate to the bottom of this file very quickly with the control-> command and Emacs.
+If you find moving selected tasks from the list back up the page to the current onerous, you could store this overflow list in a separate file and then copy a group of to-do's from this file opened in parallel buffer.
