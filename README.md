@@ -116,28 +116,54 @@ However, by turning this practice into a daily habit, you can overcome the resis
 ### TODOs with time estimates
 
 I tend to be over zealous about assembling to-do list that I can never accomplish in a day.
-The disease of being overly ambitious is built into my surname.
 While you are suppose to overload the list of to-do items to a certain degree in order to push yourself, excess overloading will only discourage you.
 To limit overloading of a day with too many to-dos, I developed a special set of voice commands that insert a org-mode TODO with a priority in square brackets and followed by a time estimate in parentheses.
-The time estimate is in units of hours.
+The time estimates are in units of hours.
 One could probably put this time estimate into a square bracket after the square bracket for the priority, but this second set of square brackets might confuse org-mode.
 
 I say "timed A1 h3" to insert a A1 to-do item with a time estimate of 3 hours: `*** TODO [#A1] (3)`. 
 I cannot say "timed A1 3" becuase this will result timed A13.
 I pre-defined these commands in advance.
 I have inlcuded fractions of hours with decimal points to the nearest quarter hour.
+
 The Voice In software has a little difficulty dealing with the point in the decimal point, so you may find yourself having to repeat these commands a few times before you get the desired result.
 Once you hit upon the correct speed with which they speak these commands, the error rate will go down.
 The time estimates range from 0.25 to 5 hours.
 A task that will take longer than 5 hours probably needs to be split up into two or more to-do's.
 
-I would be cool to write up some elips code that would sum up the time estimates and sound an audible alarm when the time estimates exceed a certain limit like 8, 10, 12, 14, or 16 hours, depending on the length of your standard work day.
-The audible sound should be a whistle or a siren to warn you that you overloaded your to-do list.
+It would be possible to write up some elisp code that would sum up the time estimates and sound an audible alarm when the time estimates exceed a certain limit like 8, 10, 12, 14, or 16 hours, depending on the length of your standard work day.
+The audible sound could be a whistle or a siren to warn you that you overloaded your to-do list.
 The wave package can provide support for audible alarms like this.
 It is just a matter of coming up with the e-list code to do the summing.
 
+### Reconciling Project TODO lists with Daily TODO lists
+
+One problem is the reconciliation of project-based to-do lists and daily to-do list.
+I have yet to address this problem in a satisfactory fashion.
+
+Org-agenda supports this reconciliation by enabling you to maintain to-do lists inside a projects.org file.
+If you assign a scheduled date for a project to-do, then it will show up in your daily to-do list.
+This is convenient if you are very judicious in the assignment of scheduled dates to project to-do items.
+Otherwise, you will spend a ridiculous amount of time hunting down various to-do's that you did not accomplish on the assigned day and editing their scheduled date to postpone their accomplishment.
+This work can become overwhelming and has led me to abandon the use of org-agenda on several occasions.
+Using the projects.org file is worth trying only after you have mastered prioritizing dos and limiting the number of to-dos per day.
+
+However, I found that academic writing projects are so complex that I prefer to maintain the to-do list for a writing project inside the writing log that I maintain on Overleaf with the writing project.
+Each running log has a section for the to-do list.
+These are really overflow to-dos because they have yet to be scheduled.
+This overflow to-do could also be called unscheduled to-dos.
+I use the concept of the next item to be done from the getting things done approach.
+At a minimum, I will add this next item to my daily to-do list.
+
+I could probably use the projects.org file if I could wean myself off Overleaf.
+I find this hard to do because I have a streamlined workflow on Overleaf.
+I am very reluctant to abandon something that is working so well.
+In addition, I can share my access to my writing log with my collaborators.
+This is harder to do inside Emacs because the collaborator must be an Emacs user.
+
+
 ### Overflow to-dos
-If your tasks are stored in a single org-mode file for the month or for the semester for the year, you can move some of excess your to-do items to later days in the week or month. 
+If your tasks are stored in a single org-mode file for the month, semester or year, you can move some of excess your to-do items to later days in the week or month. 
 You could assign a priority to the task that is just at the letter level and then add a number on the day that you plan to do that task.
 
 However, your priorities will probably change from day to day.
