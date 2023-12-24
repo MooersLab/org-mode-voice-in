@@ -1,8 +1,43 @@
 # org-mode-voice-in
 
 ## Introduction
-Org-mode related voice commands for the browser-based Voice In.
+Org-mode-related voice commands for the browser-based Voice In.
 The utilization of these custom commands requires a subscription to Voice In Plus.
+Voice In works only in Google Chrome.
+It works in any text area, such as in:
+
+- markdown documents in GitHub while in the editing mode
+- markdown documents in Jupyter Lab and Jupyter Notebooks
+- markdown documents in 750words.com
+- tex documents on Overleaf.com
+- Gmail
+- Outlook webmail
+- Might work in a docker-hosted Emacs
+
+Org-mode is an advanced form of Markdown that has strong support for the following activities:
+
+- outlining
+- time and project management through the org-agenda package
+- Knowledge Management through the that zettelkasten method implemented in org-roam
+- academic manuscript preparation with exports to PDF and several alternative packages for inserting citations
+- the preparation of blog posts the export to HTML
+- book preparation leveraging the features of LaTeX
+- the preparation of reveal style slides in HTML with org-real
+- tables that enable computations to be run automatically on a by-row or by-column basis
+
+All the features of org-mode are best accessed by using the Emacs text editor.
+However, several other text editors support the editing of org documents.
+
+I use these voice commands to draft org-mode documents within 750 words.com.
+Then, I copy and paste my dictated text into Emacs for further editing.
+Yes, I am not a fanatical Emacs user; I use other tools.
+I would use these other tools even if I had VS Code for my favorite text editor.
+As indicated on my front page, I ardently believe Emacs is the ultimate text editor and that anyone serious about working with text and most computer code will eventually find themselves using Emacs.
+I sure wish I had started using Emacs a decade earlier.
+
+The current progression is for people to start out using VS Code, and then they might switch to using Vim.
+After a few years of Vim, they finally realize how crappy Vimscirpt is and then switch to Emacs.
+However, a recent report demonstrated how computer science students could start by using Emacs within a few weeks, thereby skipping the unnecessary phases of moving through the VS Code and then Vim before reaching Emacs.
 
 ## Usage
 After the commands have been uploaded, you can utilize them straight away.
@@ -29,54 +64,54 @@ See [Voice Computing section of landing page](https://github.com/MooersLab/Mooer
 ### Pick word combinations rarely used in normal prose
 The basic rule for developing a voice command is to pick a word combination that is very unlikely to be used in one's prose.
 This choice can avoid the accidental insertion of an unintended set of words.
-For example, it is pretty pointless to use the voice command "to-do" to insert an org-mode TODO because this phrase is used frequently in prose.
+For example, using the voice command "to do" to insert an org-mode TODO is pretty pointless because this phrase is used frequently in my prose.
 Instead, I came up with the command ''priority'' and then the associated alphanumeric code for the priority. 
-It is quite unlikely that I am going to say the command "priority A1" in my normal prose.
+It is pretty unlikely that I will say the command "priority A1" in my usual prose.
 
-### Pick word combintations that do not contain over commands
-If you pick a word combination that has a subset of words that are already assigned to another command, then the commands will collide and you will not get the intended effect.
-It is better to pick a synonym for the new command rather than to include the old one
+### Pick word combinations that do not contain other commands
+If you pick a word combination with a subset of words already assigned to another command, the commands will collide, and you will not get the intended effect.
+It is better to pick a synonym for the new command than include the old one.
 
 ### Use verbs are prefaces
-I use the verb "insert" in front of computer code that I want to insert.
-I use the verb "expand" to expand the first name of a person into their full name and to expand acronyms into their full term.
+I use the verb "insert" in front of the computer code that I want to insert.
+I use the verb "expand" to expand a person's first name into their full name and to expand acronyms into their full term.
 
 ### Test the commands
-Like other forms of computer code, the Voice In commands need to be tested to ensure that you get the effect that you intend.
-The speed with what you vocalize a command has a big impact.
-You may find that you have to verbalize the command at a high speed to avoid having just the first word of the command inserted rather than the full command.
+Like other forms of computer code, test the Voice In commands to ensure you get the intended effect.
+The speed with which you vocalize a command has a significant impact.
+You may find that you have to verbalize the command at high speed to avoid inserting just the first word of the command rather than the entire command.
 
-
-## org-mode TODO voice commands
-One major deficit with the org-mode priority system is that it does not support directly the use of alphanumeric codes for prioritizing tasks.
-The default is to use A, B and C as the three property categories.
-Most time management books will suggest that you put your to-do items into four quadrants.
-Generally, items that would fall in the category D are things that you should not be doing now, so why waste the effort on setting up this category?
+## org-mode TODO voice commands with alphanumeric priorities
+One primary deficit with the org-mode priority system is that it does not directly support using alphanumeric codes for prioritizing tasks.
+The default is to use A, B, and C as the three property categories.
+Most time management books suggest putting your to-do items into four quadrants.
+Generally, items that would fall in category D are things that you should not be doing now, so why waste the effort on setting up this category?
 You can configure in the header of an org document to use a different range of letters for assigning priorities to tasks.
 Alternatively, you can use a range of numbers.
 
-Unfortunately, org-mode does not directly support alpha-numeric priorities.
+Unfortunately, org-mode does not directly support alphanumeric priorities.
 If you assign tasks priorities A1 through A5, B1 through B5, and C1 through C5, sorting of the list of tasks will lead to A1, B1, and C1 being at the top of the list.
 To get around this problem, I limit the A priorities to 1-10, the B priorities to 11-20, and the C priorities to 21-30.
-Now, the sorting of the list will lead to the proper arrangement where all the A priority items appear at the top of the list.
-Please note that you probably want to limit your to-do's to three to five in each category because it is highly unlikely that you could accomplish ten to-dos ins day.
+Now, the sorting of the list will lead to the proper arrangement where all the A-priority items appear at the top of the list.
+Please note that you probably want to limit your to-do's to three to five in each category because it is doubtful that you could accomplish ten to-dos in a day.
 
-Now, just say "priority A1" and "*** TODO [#A1]" is inserted.
-Next, I described by speech the task to be completed.
-Voice In is coded such that the first letter of the first word in the description of the task will be capitalized.
+Just say "priority A1" and "*** TODO [#A1]" is inserted.
+Next, I described the task to be completed by speech.
+I coded the Voice In command such that the first letter of the first word in the description of the task will be capitalized.
 
 The three asterisks set the heading to the third level.
-I use the first level for the title of the orgmode file.
+I use the first level for the title of the org-mode file.
 I use the second level for the date.
-Then all my to do's are under the date heading.
-Obviously, you can easily edit these commands to suit your needs.
+Then all my to-do's are under the date heading.
+You can easily edit these commands to suit your needs.
  
-The use of alpha-numeric priority codes as advocated in [''Time Power''](https://www.amazon.com/Time-Power-Revolutionary-Management-Professional/dp/0060914904) by Charles Hobbs, a classic book on time management.
-Most of the current popular time management schemes are related, but it is best to start with this source.
-The system is prinicple driven; some of the derived version are not and are less effective as a result.
-The setting up priorities to one's work forces one to make hard choices.
+The use of alphanumeric priority codes as advocated in [''Time Power''](https://www.amazon.com/Time-Power-Revolutionary-Management-Professional/dp/0060914904) by Charles Hobbs, a classic book on time management.
+Most popular time management schemes are derivatives, but it is best to start with this source.
+This book has withstood the test of 40 years; see the testimonials on Amazon.
+The system is principle-driven; some of the derived versions are not and are less effective as a result.
+Setting up priorities for one's work forces one to make hard choices.
 Most people do not like to make these kinds of choices.
-However, by turning this practice into a daily habit, you can overcome the resistance to doing this hard work.
+However, by turning this practice into a daily habit, you can overcome the resistance to this hard work.
 
 ### TODOs with time estimates
 
