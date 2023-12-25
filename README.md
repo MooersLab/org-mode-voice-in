@@ -125,8 +125,10 @@ I say "timed A1 h3" to insert a A1 to-do item with a time estimate of 3 hours: `
 I cannot say "timed A1 3" becuase this will result timed A13.
 I pre-defined these commands in advance.
 I have inlcuded fractions of hours with decimal points to the nearest quarter hour.
+I made a second set of commands with h replaced by the word "hour".
+The language model has a slightly easier time recognizing these commands.
 
-The Voice In software has a little difficulty dealing with the point in the decimal point, so you may find yourself having to repeat these commands a few times before you get the desired result.
+The Voice In software has  difficulty dealing with the point in the decimal point, so you may find yourself having to repeat these commands a few times before you get the desired result.
 Once you hit upon the correct speed with which they speak these commands, the error rate will go down.
 The time estimates range from 0.25 to 5 hours.
 A task that will take longer than 5 hours probably needs to be split up into two or more to-do's.
