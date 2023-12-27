@@ -129,9 +129,19 @@ I made a second set of commands with h replaced by the word "hour".
 The language model has a slightly easier time recognizing these commands.
 
 The Voice In software has  difficulty dealing with the point in the decimal point, so you may find yourself having to repeat these commands a few times before you get the desired result.
-Once you hit upon the correct speed with which they speak these commands, the error rate will go down.
+Once you hit upon the correct speed with which to speak these commands, the error rate will go down.
 The time estimates range from 0.25 to 5 hours.
 A task that will take longer than 5 hours probably needs to be split up into two or more to-do's.
+
+I added another set of commands for time limited TODOs.
+These commands start with "limit" in place of "timed".
+These use the Talon Voice phonetic code of "harp" for "h".
+Therefore, say "limit B5 harp 3" for a B3 activity that would take 3 hours.
+The time estimates range from 1 to 5 hours in one hour increments.
+I tested all of these commands.
+I mapped the returned errors to the correct commands.
+I helps to used ehance your enounciation and to minimize the background white noise.
+
 
 It would be possible to write up some elisp code that would sum up the time estimates and sound an audible alarm when the time estimates exceed a certain limit like 8, 10, 12, 14, or 16 hours, depending on the length of your standard work day.
 The audible sound could be a whistle or a siren to warn you that you overloaded your to-do list.
