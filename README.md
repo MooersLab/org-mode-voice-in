@@ -113,13 +113,15 @@ Setting up priorities for one's work forces one to make hard choices.
 Most people do not like to make these kinds of choices.
 However, by turning this practice into a daily habit, you can overcome the resistance to this hard work.
 
-### TODOs with time estimates
+### Org-mode TODOs with time estimates
 
 I tend to be over zealous about assembling to-do list that I can never accomplish in a day.
 While you are suppose to overload the list of to-do items to a certain degree in order to push yourself, excess overloading will only discourage you.
 To limit overloading of a day with too many to-dos, I developed a special set of voice commands that insert a org-mode TODO with a priority in square brackets and followed by a time estimate in parentheses.
 The time estimates are in units of hours.
 One could probably put this time estimate into a square bracket after the square bracket for the priority, but this second set of square brackets might confuse org-mode.
+
+#### Time bound TODO commands
 
 I say "timed A1 h3" to insert a A1 to-do item with a time estimate of 3 hours: `*** TODO [#A1] (3)`. 
 I cannot say "timed A1 3" becuase this will result timed A13.
@@ -133,6 +135,7 @@ Once you hit upon the correct speed with which to speak these commands, the erro
 The time estimates range from 0.25 to 5 hours.
 A task that will take longer than 5 hours probably needs to be split up into two or more to-do's.
 
+#### Alternate set of time bound TODO commands starting with the word "limit" and using "harp" for "h"
 I added another set of commands for time limited TODOs.
 These commands start with "limit" in place of "timed".
 These use the Talon Voice phonetic code of "harp" for "h".
@@ -142,7 +145,7 @@ I tested all of these commands.
 I mapped the returned errors to the correct commands.
 I helps to used ehance your enounciation and to minimize the background white noise.
 
-
+#### Idea for an alarm to limit daily todo list
 It would be possible to write up some elisp code that would sum up the time estimates and sound an audible alarm when the time estimates exceed a certain limit like 8, 10, 12, 14, or 16 hours, depending on the length of your standard work day.
 The audible sound could be a whistle or a siren to warn you that you overloaded your to-do list.
 The wave package can provide support for audible alarms like this.
