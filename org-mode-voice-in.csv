@@ -2076,79 +2076,79 @@ will it C10 part 2,<newline>*** TODO [#C30] (2) <capitalize>
 will it C10 part 3,<newline>*** TODO [#C30] (3) <capitalize>
 will it C10 part 4,<newline>*** TODO [#C30] (4) <capitalize>
 will it C10 part 5,<newline>*** TODO [#C30] (5) <capitalize>
-limit 4A 4B 4C,"limit A1 harp 1,<newline>*** TODO [#A1] (1) <capitalize>
-<newline>*** TODO [#A2] (1) <capitalize>
-<newline>*** TODO [#A3] (1) <capitalize>
-<newline>*** TODO [#A4] (1) <capitalize>
-<newline>*** TODO [#B11] (1) <capitalize>
-<newline>*** TODO [#B12] (1) <capitalize>
-<newline>*** TODO [#B13] (1) <capitalize>
-<newline>*** TODO [#B14] (1) <capitalize>
-<newline>*** TODO [#C21] (1) <capitalize>
-<newline>*** TODO [#C22] (1) <capitalize>
-<newline>*** TODO [#C23] (1) <capitalize>
+limit 4A 4B 4C,"<newline>*** TODO [#A1] (1) <capitalize>
+*** TODO [#A2] (1) <capitalize>
+*** TODO [#A3] (1) <capitalize>
+*** TODO [#A4] (1) <capitalize>
+*** TODO [#B11] (1) <capitalize>
+*** TODO [#B12] (1) <capitalize>
+*** TODO [#B13] (1) <capitalize>
+*** TODO [#B14] (1) <capitalize>
+*** TODO [#C21] (1) <capitalize>
+*** TODO [#C22] (1) <capitalize>
+*** TODO [#C23] (1) <capitalize>
 <newline>*** TODO [#C24] (1) <capitalize>"
-limit 5A 4B 3C,"limit A1 harp 1,<newline>*** TODO [#A1] (1) <capitalize>
-<newline>*** TODO [#A2] (1) <capitalize>
-<newline>*** TODO [#A3] (1) <capitalize>
-<newline>*** TODO [#A4] (1) <capitalize>
-<newline>*** TODO [#A5] (1) <capitalize>
-<newline>*** TODO [#B11] (1) <capitalize>
-<newline>*** TODO [#B12] (1) <capitalize>
-<newline>*** TODO [#B13] (1) <capitalize>
-<newline>*** TODO [#B14] (1) <capitalize>
-<newline>*** TODO [#C21] (1) <capitalize>
-<newline>*** TODO [#C22] (1) <capitalize>
+limit 5A 4B 3C,"<newline>*** TODO [#A1] (1) <capitalize>
+*** TODO [#A2] (1) <capitalize>
+*** TODO [#A3] (1) <capitalize>
+*** TODO [#A4] (1) <capitalize>
+*** TODO [#A5] (1) <capitalize>
+*** TODO [#B11] (1) <capitalize>
+*** TODO [#B12] (1) <capitalize>
+*** TODO [#B13] (1) <capitalize>
+*** TODO [#B14] (1) <capitalize>
+*** TODO [#C21] (1) <capitalize>
+*** TODO [#C22] (1) <capitalize>
+*** TODO [#C23] (1) <capitalize>"
+limit 6A 3B 3C,"<newline>*** TODO [#A1] (1) <capitalize>
+*** TODO [#A2] (1) <capitalize>
+*** TODO [#A3] (1) <capitalize>
+*** TODO [#A4] (1) <capitalize>
+*** TODO [#A5] (1) <capitalize>
+*** TODO [#A6] (1) <capitalize>
+*** TODO [#B11] (1) <capitalize>
+*** TODO [#B12] (1) <capitalize>
+*** TODO [#B13] (1) <capitalize>
+*** TODO [#C21] (1) <capitalize>
+*** TODO [#C22] (1) <capitalize>
 <newline>*** TODO [#C23] (1) <capitalize>"
-limit 6A 3B 3C,"limit A1 harp 1,<newline>*** TODO [#A1] (1) <capitalize>
-<newline>*** TODO [#A2] (1) <capitalize>
-<newline>*** TODO [#A3] (1) <capitalize>
-<newline>*** TODO [#A4] (1) <capitalize>
-<newline>*** TODO [#A5] (1) <capitalize>
-<newline>*** TODO [#A6] (1) <capitalize>
-<newline>*** TODO [#B11] (1) <capitalize>
-<newline>*** TODO [#B12] (1) <capitalize>
-<newline>*** TODO [#B13] (1) <capitalize>
-<newline>*** TODO [#C21] (1) <capitalize>
-<newline>*** TODO [#C22] (1) <capitalize>
-<newline>*** TODO [#C23] (1) <capitalize>"
-limit 4A 3B 3C,"limit A1 harp 1,<newline>*** TODO [#A1] (1) <capitalize>
-<newline>*** TODO [#A2] (1) <capitalize>
-<newline>*** TODO [#A3] (1) <capitalize>
-<newline>*** TODO [#A4] (1) <capitalize>
-<newline>*** TODO [#B11] (1) <capitalize>
-<newline>*** TODO [#B12] (1) <capitalize>
-<newline>*** TODO [#B13] (1) <capitalize>
-<newline>*** TODO [#C21] (1) <capitalize>
-<newline>*** TODO [#C22] (1) <capitalize>
-<newline>*** TODO [#C23] (1) <capitalize>"
-limit 6A 3B 1C,"limit A1 harp 1,<newline>*** TODO [#A1] (1) <capitalize>
-<newline>*** TODO [#A2] (1) <capitalize>
-<newline>*** TODO [#A3] (1) <capitalize>
-<newline>*** TODO [#A4] (1) <capitalize>
-<newline>*** TODO [#A5] (1) <capitalize>
-<newline>*** TODO [#A6] (1) <capitalize>
-<newline>*** TODO [#B11] (1) <capitalize>
-<newline>*** TODO [#B12] (1) <capitalize>
-<newline>*** TODO [#B13] (1) <capitalize>
-<newline>*** TODO [#C21] (1) <capitalize>"
-limit 6A 2B 2C,"limit A1 harp 1,<newline>*** TODO [#A1] (1) <capitalize>
-<newline>*** TODO [#A2] (1) <capitalize>
-<newline>*** TODO [#A3] (1) <capitalize>
-<newline>*** TODO [#A4] (1) <capitalize>
-<newline>*** TODO [#A5] (1) <capitalize>
-<newline>*** TODO [#A6] (1) <capitalize>
-<newline>*** TODO [#B11] (1) <capitalize>
-<newline>*** TODO [#B12] (1) <capitalize>
-<newline>*** TODO [#C21] (1) <capitalize>
-<newline>*** TODO [#C22] (1) <capitalize>"
-limit 5A 3B 2C,"limit A1 harp 1,<newline>*** TODO [#A1] (1) <capitalize>
-<newline>*** TODO [#A2] (1) <capitalize>
-<newline>*** TODO [#A3] (1) <capitalize>
-<newline>*** TODO [#A4] (1) <capitalize>
-<newline>*** TODO [#A5] (1) <capitalize>
-<newline>*** TODO [#B11] (1) <capitalize>
-<newline>*** TODO [#B12] (1) <capitalize>
-<newline>*** TODO [#B13] (1) <capitalize>
-<newline>*** TODO [#C21] (1) <capitalize>
-<newline>*** TODO [#C22] (1) <capitalize>"
+limit 4A 3B 3C,"<newline>*** TODO [#A1] (1) <capitalize>
+*** TODO [#A2] (1) <capitalize>
+*** TODO [#A3] (1) <capitalize>
+*** TODO [#A4] (1) <capitalize>
+*** TODO [#B11] (1) <capitalize>
+*** TODO [#B12] (1) <capitalize>
+*** TODO [#B13] (1) <capitalize>
+*** TODO [#C21] (1) <capitalize>
+*** TODO [#C22] (1) <capitalize>
+*** TODO [#C23] (1) <capitalize>"
+limit 6A 3B 1C,"<newline>*** TODO [#A1] (1) <capitalize>
+*** TODO [#A2] (1) <capitalize>
+*** TODO [#A3] (1) <capitalize>
+*** TODO [#A4] (1) <capitalize>
+*** TODO [#A5] (1) <capitalize>
+*** TODO [#A6] (1) <capitalize>
+*** TODO [#B11] (1) <capitalize>
+*** TODO [#B12] (1) <capitalize>
+*** TODO [#B13] (1) <capitalize>
+*** TODO [#C21] (1) <capitalize>"
+limit 6A 2B 2C,"<newline>*** TODO [#A1] (1) <capitalize>
+*** TODO [#A2] (1) <capitalize>
+*** TODO [#A3] (1) <capitalize>
+*** TODO [#A4] (1) <capitalize>
+*** TODO [#A5] (1) <capitalize>
+*** TODO [#A6] (1) <capitalize>
+*** TODO [#B11] (1) <capitalize>
+*** TODO [#B12] (1) <capitalize>
+*** TODO [#C21] (1) <capitalize>
+*** TODO [#C22] (1) <capitalize>"
+limit 5A 3B 2C,"<newline>*** TODO [#A1] (1) <capitalize>
+*** TODO [#A2] (1) <capitalize>
+*** TODO [#A3] (1) <capitalize>
+*** TODO [#A4] (1) <capitalize>
+*** TODO [#A5] (1) <capitalize>
+*** TODO [#B11] (1) <capitalize>
+*** TODO [#B12] (1) <capitalize>
+*** TODO [#B13] (1) <capitalize>
+*** TODO [#C21] (1) <capitalize>
+*** TODO [#C22] (1) <capitalize>"
