@@ -145,6 +145,16 @@ I tested all of these commands.
 I mapped the returned errors to the correct commands.
 I helps to used ehance your enounciation and to minimize the background white noise.
 
+#### Groups of time-bounded TODO commands
+
+- limit 4A 4B 4C
+- limit 5A 4B 3C
+- limit 6A 3B 3C
+- limit 4A 3B 3C
+- limit 6A 3B 1C
+- limit 6A 2B 2C
+- limit 5A 3B 2C
+
 #### Idea for an alarm to limit daily todo list
 It would be possible to write up some elisp code that would sum up the time estimates and sound an audible alarm when the time estimates exceed a certain limit like 8, 10, 12, 14, or 16 hours, depending on the length of your standard work day.
 The audible sound could be a whistle or a siren to warn you that you overloaded your to-do list.
@@ -175,7 +185,6 @@ I find this hard to do because I have a streamlined workflow on Overleaf.
 I am very reluctant to abandon something that is working so well.
 In addition, I can share my access to my writing log with my collaborators.
 This is harder to do inside Emacs because the collaborator must be an Emacs user.
-
 
 ### Overflow to-dos
 If your tasks are stored in a single org-mode file for the month, semester or year, you can move some of excess your to-do items to later days in the week or month. 
