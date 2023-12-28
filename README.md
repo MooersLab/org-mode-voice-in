@@ -145,7 +145,14 @@ I tested all of these commands.
 I mapped the returned errors to the correct commands.
 I helps to used ehance your enounciation and to minimize the background white noise.
 
-#### Groups of time-bounded TODO commands
+#### Groups of time-bounded TODO commands mapped to one voice command
+
+The above approach has advantage that after a new TODO item is inserted, the cursor will be positioned correctly and the first letter of the first word will be capitalized when you dictate the action to be taken.
+The disadvantage of the above approach that you have to speak out each item one at a time as you need them.
+An alternative approach is to insert a group of prioritized to-do items with a default duration of 1 hour.
+You will have to edit the duration or time estimate and you will have to handle the capitalization of the first letter of the first word of task.
+The advantage of this approaches that you are starting out with a reasonable number of TODO items.
+Below is a list of various combinations of A, B and C TODOs .
 
 - limit 4A 4B 4C
 - limit 5A 4B 3C
@@ -154,6 +161,27 @@ I helps to used ehance your enounciation and to minimize the background white no
 - limit 6A 3B 1C
 - limit 6A 2B 2C
 - limit 5A 3B 2C
+
+For example, you would say "limit 5a3b2c" or "limit 5a 3b 2c" to insert the following list:
+
+```org-mode
+*** TODO [#A1] (1)
+*** TODO [#A2] (1)
+*** TODO [#A3] (1)
+*** TODO [#A4] (1)
+*** TODO [#A5] (1)
+*** TODO [#B11] (1)
+*** TODO [#B12] (1)
+*** TODO [#B13] (1)
+*** TODO [#C21] (1)
+*** TODO [#C22] (1)
+```
+
+You could use one of these predefined sets of to do's as a means of nucleating your current days list.
+If you wish to add a 6th A priority to-do, then you can use the corresponding time bound to-do command `limit A6 harp 1` with the cursor at the end of the line for A5.
+This will insert the new to-do into the existing list at appropriate position.
+
+
 
 #### Idea for an alarm to limit daily todo list
 It would be possible to write up some elisp code that would sum up the time estimates and sound an audible alarm when the time estimates exceed a certain limit like 8, 10, 12, 14, or 16 hours, depending on the length of your standard work day.
