@@ -8,22 +8,24 @@
 ## Introduction
 Org-mode-related voice commands for the browser-based Voice In.
 The utilization of these custom commands requires a subscription to Voice In Plus.
-Voice In works only in Google Chrome.
+Plugins are available for Google Chrome and Microsoft Edge.
 It works in any text area, such as in:
 
 - markdown documents in GitHub while in the editing mode
 - markdown documents in Jupyter Lab and Jupyter Notebooks
-- markdown documents in 750words.com
+- markdown documents in 750words.com (I was grandfathered in and have a lifelong account.)
+- markdown documents in Write Honey (a free alternative to 750words.com).
 - tex documents on Overleaf.com
 - Gmail
 - Outlook webmail
 - Might work in a docker-hosted Emacs
 
+
 Org-mode is an advanced form of Markdown that has strong support for the following activities:
 
 - outlining
 - time and project management through the org-agenda package
-- Knowledge Management through the that zettelkasten method implemented in org-roam
+- Knowledge Management through the zettelkasten method implemented in the org-roam package for Emacs.
 - academic manuscript preparation with exports to PDF and several alternative packages for inserting citations
 - the preparation of blog posts the export to HTML
 - book preparation leveraging the features of LaTeX
@@ -31,26 +33,29 @@ Org-mode is an advanced form of Markdown that has strong support for the followi
 - tables that enable computations to be run automatically on a by-row or by-column basis
 
 All the features of org-mode are best accessed by using the Emacs text editor.
-However, several other text editors support the editing of org documents.
+However, several other text editors (e.g., VS Code, NeoVim) support org documents.
+
 
 I use these voice commands to draft org-mode documents within 750 words.com.
 Then, I copy and paste my dictated text into Emacs for further editing.
-Yes, I am not a fanatical Emacs user; I use other tools.
-I would use these other tools even if I had VS Code for my favorite text editor.
-As indicated on my front page, I ardently believe Emacs is the ultimate text editor and that anyone serious about working with text and most computer code will eventually find themselves using Emacs.
-I sure wish I had started using Emacs a decade earlier.
 
-The current progression is for people to start out using VS Code, and then they might switch to using Vim.
-After a few years of Vim, they finally realize how crappy Vimscirpt is and then switch to Emacs.
-However, a recent report demonstrated how computer science students could start by using Emacs within a few weeks, thereby skipping the unnecessary phases of moving through the VS Code and then Vim before reaching Emacs.
+Yes, I am not a fanatical Emacs user; I use other tools.
+I would use these other tools even if VS Code was my favorite text editor.
+
+As indicated on my front page, I ardently believe Emacs is the ultimate text editor and that anyone serious about working with text and most computer code will eventually use it.
+I wish I had started using Emacs a decade earlier.
+
+The current progression is for people to start using VS Code and then switch to Vim.
+After a few years of Vim, they finally realized how much fun they are missing by not using Emacs LISP to configure their editor.
+However, a recent report demonstrated how computer science students could start using Emacs within a few weeks, thereby skipping the unnecessary phases of moving through the VS Code and Vim before reaching Emacs.
 
 ## Usage
 After the commands have been uploaded, you can utilize them straight away.
 Simply activate Voice In by using a keyboard shortcut and dictate the command.
 
 ## Installation
-The commands are mapped to the text that is actually inserted.
-Each command is paired with the inserted text on a single line in of a comma separated value file.
+The commands are mapped to the text that is inserted.
+Each command is paired with the inserted text on a single line in a comma-separated value file.
 Use the bulk ad button in Voice In Plus to upload these commands into your collecton of custom commands.
 
 ## Contents of the library
@@ -58,15 +63,15 @@ Use the bulk ad button in Voice In Plus to upload these commands into your colle
 - org-mode file headers
 - table templates
 - org-babel code blocks
-- 30 TODO's with priorites
-- 600 TODO's with priorities and time esitmates
+- 30 TODO's with priorities
+- 600 TODOs with priorities and time estimates
 
-## Related repos
+## Related repositories
 See [Voice Computing section of landing page](https://github.com/MooersLab/MooersLab?tab=readme-ov-file#voice-computing)
 
-## Rules for develop voice commands
+## Rules for developing voice commands
 
-### Pick word combinations rarely used in normal prose
+### Pick word combinations rarely used in regular prose
 The basic rule for developing a voice command is to pick a word combination that is very unlikely to be used in one's prose.
 This choice can avoid the accidental insertion of an unintended set of words.
 For example, using the voice command "to do" to insert an org-mode TODO is pretty pointless because this phrase is used frequently in my prose.
