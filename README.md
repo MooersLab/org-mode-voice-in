@@ -1,14 +1,13 @@
 ![Version](https://img.shields.io/static/v1?label=org-mode-voice-in&message=0.1.1&color=brightcolor)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-
-
 # org-mode-voice-in
 
 ## Introduction
 The CSV file in this repository contains the library of org-mode-related voice commands for the browser-based Speech-to-Text plugin Voice In Plus for Google Chrome and Microsoft Edge.
 The commands include text replacements for misinterpreted words related to org and boilerplate code for making to-do lists.
-The commands cannot be used directly in Emacs, but they can be used indirectly via GhostText.
+The org commands cannot be executed directly in Emacs, but they can be used indirectly via GhostText.
+Some of the org code may run inside the web version of VS Code.
 
 ## Work in progress
 I plan to include more mode org-mode-related code snippets.
@@ -20,15 +19,14 @@ The fee is modest, and it has been one of the best returns on investment I have 
 My use of it has less friction than Serenade or Talon Voice.
 
 
-
 Voice In Plus works in any text area, such as in:
 
 - An Emacs session linked to the text area in a web browser with GhostText running. The text area is where Voice In Plus can operate. GhostText mirrors the transcribed text in an Emacs buffer.
 - Org-mode documents in JupyterLab. You can use the library to compose the org-mode document and then run it later in Emacs to debug it.
-- markdown documents in GitHub while in the editing mode.
-- markdown documents in Jupyter Lab. 
-- markdown documents in 750words.com (I was grandfathered in and have a lifelong account.)
-- markdown documents in Write Honey (writehoney.com) (a free (e.g., free account for life with no daily word limit) alternative to 750words.com).
+- Markdown documents are in GitHub while in editing mode.
+- Markdown documents in Jupyter Lab. 
+- Markdown documents in 750words.com.
+- Markdown documents in Write Honey (writehoney.com) (e.g., free account for life with no daily word limit, an alternative to 750words.com).
 - Code and markdown cells in Jupyter notebooks.
 - tex documents on Overleaf.com
 - Gmail.
