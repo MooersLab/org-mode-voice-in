@@ -1,4 +1,4 @@
-![Version](https://img.shields.io/static/v1?label=org-mode-voice-in&message=0.1&color=brightcolor)
+![Version](https://img.shields.io/static/v1?label=org-mode-voice-in&message=0.1.1&color=brightcolor)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
@@ -6,31 +6,47 @@
 # org-mode-voice-in
 
 ## Introduction
-Org-mode-related voice commands for the browser-based Voice In.
-The utilization of these custom commands requires a subscription to Voice In Plus.
-Plugins are available for Google Chrome and Microsoft Edge.
-It works in any text area, such as in:
+The CSV file in this repository contains the library of org-mode-related voice commands for the browser-based Speech-to-Text plugin Voice In Plus for Google Chrome and Microsoft Edge.
+The commands include text replacements for misinterpreted words related to org and boilerplate code for making to-do lists.
+The commands cannot be used directly in Emacs, but they can be used indirectly via GhostText.
 
-- markdown documents in GitHub while in the editing mode
-- markdown documents in Jupyter Lab and Jupyter Notebooks
+## Work in progress
+I plan to include more mode org-mode-related code snippets.
+
+
+## Background
+The utilization of these custom commands requires a subscription to Voice In Plus.
+The fee is modest, and it has been one of the best returns on investment I have made in the past year.
+My use of it has less friction than Serenade or Talon Voice.
+
+
+
+Voice In Plus works in any text area, such as in:
+
+- An Emacs session linked to the text area in a web browser with GhostText running. The text area is where Voice In Plus can operate. GhostText mirrors the transcribed text in an Emacs buffer.
+- Org-mode documents in JupyterLab. You can use the library to compose the org-mode document and then run it later in Emacs to debug it.
+- markdown documents in GitHub while in the editing mode.
+- markdown documents in Jupyter Lab. 
 - markdown documents in 750words.com (I was grandfathered in and have a lifelong account.)
 - markdown documents in Write Honey (writehoney.com) (a free (e.g., free account for life with no daily word limit) alternative to 750words.com).
+- Code and markdown cells in Jupyter notebooks.
 - tex documents on Overleaf.com
-- Gmail
-- Outlook webmail
-- Might work in a docker-hosted Emacs
+- Gmail.
+- Outlook web mail.
+- Might work in a docker-hosted Emacs.
 
 
 Org-mode is an advanced form of Markdown that has strong support for the following activities:
 
-- outlining
-- time and project management through the org-agenda package
+- Outlining.
+- Time and project management through the org-agenda package.
 - Knowledge Management through the zettelkasten method implemented in the org-roam package for Emacs.
-- academic manuscript preparation with exports to PDF and several alternative packages for inserting citations
-- the preparation of blog posts the export to HTML
-- book preparation leveraging the features of LaTeX
-- the preparation of reveal style slides in HTML with org-real
-- tables that enable computations to be run automatically on a by-row or by-column basis
+- Academic manuscript preparation with exports to PDF and several alternative packages for inserting citations.
+- The preparation of blog posts that are exported to HTML.
+- Book preparation leveraging the features of LaTeX.
+- The preparation of Reveal.js style slides in HTML with org-real.
+- Tables that enable computations to be run automatically on a by-row or by-column basis.
+- Support for literature programming with source blocks that can be executed with the output included in the org document.
 
 All the org-mode features are best accessed using the Emacs text editor.
 Org-mode was developed for Emacs.
@@ -40,7 +56,7 @@ However, other text editors (e.g., VS Code, NeoVim) now support org documents.
 I use these voice commands to draft org-mode documents within 750 words.com.
 Then, I copy and paste my dictated text into Emacs for further editing.
 
-Yes, I am not a fanatical Emacs user; I use other tools.
+I am not a fanatical Emacs user; I use other tools.
 I would use these other tools even if VS Code was my favorite text editor.
 
 As indicated on my front page, I ardently believe Emacs is the ultimate text editor and that anyone serious about working with text and most computer code will eventually use it.
@@ -48,7 +64,7 @@ I wish I had started using Emacs a decade earlier.
 
 The current progression is for people to start using VS Code and switch to Vim when they want more control over their editor.
 After a few years of Vim, they finally realized how much fun they were missing by not configuring their editor with Emacs LISP.
-A recent report by Professor Marcus Birkenkrahe demonstrated how computer science students could start using Emacs within a few weeks, skipping the long phases of moving through VS Code and Vim before reaching Emacs.
+Talks ( []() and []() ) by Professor Marcus Birkenkrahe demonstrated how computer science students could start using Emacs within a few weeks, skipping the long phases of moving through VS Code and Vim before reaching Emacs.
 
 ## Usage
 After the commands have been uploaded, you can utilize them straight away.
@@ -57,7 +73,7 @@ Simply activate Voice In by using a keyboard shortcut and dictate the command.
 ## Installation
 The commands are mapped to the text that is inserted.
 Each command is paired with the inserted text on a single line in a comma-separated value file.
-Use the bulk ad button in Voice In Plus to upload these commands into your collecton of custom commands.
+Use the bulk ad button in Voice In Plus to upload these commands to your collection of custom commands.
 
 ## Contents of the library
 
@@ -245,3 +261,17 @@ You can call it the "overflow list" or whatever you like.
 You can store this overflow list at the top or bottom of your org-mode task.org file.
 You can navigate to the bottom of this file very quickly with the control-> command in Emacs.
 If you find moving selected tasks from the list back up the page to the current onerous, you could store this overflow list in a separate org file and then copy a group of to-do's from this file opened in a parallel buffer for pasting into your task.org file.
+
+## Sources of funding
+
+- NIH: R01 CA242845
+- NIH: R01 AI088011
+- NIH: P30 CA225520 (PI: R. Mannel)
+- NIH: P20 GM103640 and P30 GM145423 (PI: A. West)
+
+## Update history
+
+|Version      | Changes                                                                                                                                    | Date                 |
+|:-----------:|:------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------:|
+| Version 0.1.1 |  Added some text replacements. Added and update table.                                                                                   | 2024 July 2         |
+
