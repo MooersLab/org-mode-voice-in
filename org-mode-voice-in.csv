@@ -1,3 +1,15 @@
+or capture,org-capture
+Sotero,Zetero
+subterra,Zetero
+Cetero,Zetero
+org room,org-roam
+orgnotophiles,org-noter files
+or noter,org-noter
+sitar,citar
+Set our orgrown,citar-org-roam
+sitar or groom,citar-org-roam
+Ford motor,org-noter
+work notor,org-noter
 to do item,<newline>*** TODO <capitalize>
 prioritized to do,<newline>*** TODO [#B] <capitalize>
 priority a,<newline>*** TODO [#A] <capitalize>
