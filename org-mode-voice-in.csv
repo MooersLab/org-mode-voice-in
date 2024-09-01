@@ -10,6 +10,102 @@ Set our orgrown,citar-org-roam
 sitar or groom,citar-org-roam
 Ford motor,org-noter
 work notor,org-noter
+ace window,ace-window
+e Max,Emacs
+emacs,Emacs
+orc mode,org-mode
+org mode,org-mode
+Remax,treemacs
+tree Max,treemacs
+treemax,treemacs
+tree max,treemacs
+new emacs,GNU Emacs
+emacs,Emacs		
+emacs conference,emacsconf		
+emacs index key,\index{Emacs}		
+emacs listens,EmacsListens
+emax,Emacs		
+emax conference,emacsconf
+expand emacs-eat,Emulate A Terminal
+expand ert,Emacs Lisp Regression Testing
+expand melpa,Milkypostman’s Emacs Lisp Package Archive
+good new emacs,GNU Emacs		
+good new emails,GNU Emacs		
+gooey,GUI		
+google colab,Google Colab
+blood tech,\LaTeX	
+la tech,\LaTeX		
+la tex,\LaTeX
+law tech,\LaTeX
+lock tech,\LaTeX		
+log tech,\LaTeX
+lot tech,\LaTeX
+luck tech,\LaTeX
+bibtech,BibTeX		
+bidtech,BibTeX		
+big tech,BibTeX		
+big text,BibTeX
+or bible,org-babel		
+or graph,org-ref		
+or grown,org-roam		
+or mode,org-mode		
+or noter,org-noter
+orb capture,org-capture		
+orb mode,Org-mode
+org babble,org-babel		
+org mode,org-mode
+org roam,org-roam		
+org rome,org-roam		
+org rome,ui	org-roam-ui		
+org rome,user interface	org-roam-ui		
+org room,org-roam
+organ bible,org-babel		
+orgnotophiles,org-noter files
+orograph,org-ref
+work mode,org-mode		
+work notor,org-noter
+do e-max,Doom Emacs
+do me max,Doom Emacs
+dock strain,dostring		
+dock string,docstring
+open emacs reddit,<open:https://www.reddit.com/r/planetemacs/>		
+open emacs repos,<open:https://github.com/MooersLab#emacs-related> 		
+open emacs talk,<open:https://www.overleaf.com/project/64ec8d242dc2edd548b84c9a>		
+open emacslife,<open:https://planet.emacslife.com/>
+open github my emacs,<open:https://github.com/MooersLab#emacs-related>
+open kit chin research group,<open:https://kitchingroup.cheme.cmu.edu/blog/2014/08/08/What-we-are-using-org-mode-for/>
+org mode cheat sheet,"S-tab cycle through subtree display <newline>
+org-latex-preview,C-c C-x C-l  <newline>
+org-insert-drawer,C-c C-x d  <newline>
+to narrow to current subtree,C-x n s<newline>
+to widen from current subtree,C-x n w<newline>
+to demote a heading,M-right<newline>
+to promote a heading,M-left<newline>
+to insert new heading at same level,M-RET<newline>
+to insert a new to-do at the same level,M-S-RET<newline>
+whitespace-end-sentence-delete,C-c d <newline>
+to show all content including drawers,C-u C- u C-u <newline>
+to move to the next heading,C-c C-n<newline>
+to mote to the previous heading,C-c C-p<newline>
+to move to the next heading at same level,C-c C-f<newline>
+to move to previous heading at same level,C-c C-b<newline>
+to move backward to the higher level,C-c C-u<newline>
+to execute a code block,C-c C-c<newline>
+to edit a code block in a new buffer,C-c '"
+insert emacs macro protocol,"\begin{enumerate}
+\item Place the TextCursor at the beginning of the first line.
+\item `C-x (’ to start recording a keyboard macro.
+\item ‘C-e’ (or ‘M-x end-of-line’) to move the cursor to the end of the line.
+\item Type “-- foobar was here”
+\item ‘C-f’ (or ‘M-x forward-char’) to move the cursor to the beginning of the next line. (C-n might not go to the next line if the macro encounters a long line long that wraps on the screen)
+\item `C-x )’ to stop recording the keyboard macro.
+\item ‘C-u 0 C-x e’ to execute the macro an infinite number of times until the end of the file is reached (See InfiniteArgument).
+\end{enumerate}"
+insert org header,"#+title:  A simple org-mode document
+#+author: Blaine Mooers
+#+date:   2024-12-22
+* Top level headline
+** Second level headline"
 to do item,<newline>*** TODO <capitalize>
 prioritized to do,<newline>*** TODO [#B] <capitalize>
 priority a,<newline>*** TODO [#A] <capitalize>
